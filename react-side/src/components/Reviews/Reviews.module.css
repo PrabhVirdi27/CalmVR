@@ -1,0 +1,35 @@
+.imgs {
+    width: 150px;
+    height: auto;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+
+.outerFlex {
+    flex-flow: row wrap;
+    align-items: center;
+    padding-bottom: 4rem;
+    padding-inline: 2rem;
+}
+
+.imgFlex {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;    
+    width: 200px;
+    /* background-color: antiquewhite; */
+}
+
+.imgFlex .text {
+    font-weight: 700;
+}
+
+.ratingFlex {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    padding-left: 3rem;
+    gap: 1rem;
+}

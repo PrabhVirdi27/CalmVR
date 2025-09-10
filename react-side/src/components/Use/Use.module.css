@@ -1,0 +1,33 @@
+.text {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.flexCont {
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.imgPeter {
+    width: 40%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel {
+    height: auto;
+    width: calc(100% - 2px);
+}
+
+.carSlider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

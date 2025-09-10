@@ -1,0 +1,20 @@
+.image {
+    width: 45%;
+    height: auto;
+}
+
+.flexCont {
+    flex-direction: row wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 5rem;
+}
+
+span {
+    font-weight: 700;
+    color: var(--mantine-color-blue-filled);
+}
+
+.text {
+    font-size: 1.2rem;
+}

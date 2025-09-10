@@ -1,0 +1,34 @@
+:root {
+  --nav-height: 50px; /* Needed for Welcome.tsx to adjust height of landing page image and navigation*/
+}
+
+.main {
+  min-height: calc(100vh - var(--nav-height));
+  background-image: url('../../../static/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.title {
+  font-size: 10rem;
+  /* padding-top: 5rem; */
+}
+
+.text {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+span
+ {
+  color: (--mantine-color-blue-filled);
+ }

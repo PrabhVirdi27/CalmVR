@@ -1,0 +1,33 @@
+.main {
+    border-radius: 20px;
+    background-color: #D0EBFF;
+    padding: 2rem;
+    width: 250px;
+
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.text {
+    
+    font-size: 1.15rem;
+    text-align: center;
+    
+}
+
+.flexCont {
+    justify-content: space-between;
+}
+
+img {
+    width: 10px;
+    height: auto;
+}
+
+.divider {
+    border: 1px solid black;
+    width: 100px;  
+    margin-top: 1rem;  
+    margin-bottom: 1rem;
+  }
