@@ -32,7 +32,7 @@ export default function HomePage() {
         children={<Text><Facts/></Text>}
       />
 
-      <Box style={{background: '#F8F9FA'} } >
+      <Box style={{background: '#e8e9ebff'} } >
 
         <CustomPage 
           idLabel={'How_It_Works'}

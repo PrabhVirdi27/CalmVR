@@ -5,7 +5,7 @@ import React from "react";
 import * as classes from "./Use.module.css"
 
 const carouselStyle = {
-    borderRadius: '20px', // Adjust the value based on your preference
+    borderRadius: '20px', // Adjust the value based on your preference and style
     overflow: 'hidden',  // Ensure that content within the carousel doesn't overflow
   };
 
