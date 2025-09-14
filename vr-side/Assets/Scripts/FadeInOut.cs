@@ -11,7 +11,7 @@ public class FadeInOut : MonoBehaviour
 
     private static bool fadeIn, fadeOut = false;
 
-    private static float fadeTime = 0.01f; //change this
+    private static float fadeTime = 0.02f; //changed
     private Renderer rend;
 
     private static int currentScene = 0;
@@ -42,9 +42,9 @@ public class FadeInOut : MonoBehaviour
         Color c = currentObj.GetComponent<Renderer>().material.color;
 
         float alpha = 0;
-        while (alpha < 1)
+        while (alpha <= 2)
         {
-            alpha+= 0.1f;
+            alpha+= 0.3f;
             c.a = alpha;
             currentObj.GetComponent<Renderer>().material.SetColor("_Color", c);
             yield return null;

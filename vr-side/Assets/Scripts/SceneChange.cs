@@ -27,9 +27,11 @@ public class SceneChange : MonoBehaviour
     private void nextScene()
     {
         int nextScene = currentScene++;
+        int newScene = currentScene + 2;
         if (nextScene >= scenes.Length)
         {
             nextScene = 0;
+            newScene = 1;
         }
 
         currentScene = nextScene;
